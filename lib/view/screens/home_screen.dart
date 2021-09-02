@@ -30,15 +30,15 @@ class _HomeScreenState extends State<HomeScreen> {
           items: const[
             BottomNavigationBarItem(
               icon:  const Icon(Icons.highlight),
-              title:  const Text("トップニュース"),
+              label:   "トップニュース",
             ),
             BottomNavigationBarItem(
               icon: const Icon(Icons.list),
-              title: const Text("ニュース一覧"),
+              label: "ニュース一覧",
             ),
             BottomNavigationBarItem(
               icon: const Icon(Icons.info),
-              title: const Text("このニュースについて"),
+              label: "このニュースについて",
             ),
           ],
           onTap: (index) {
