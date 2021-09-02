@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:path/path.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 import 'package:udemmy5b/models/db/dao.dart';
