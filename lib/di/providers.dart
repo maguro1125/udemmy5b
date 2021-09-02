@@ -38,6 +38,9 @@ List<SingleChildWidget> dependentModel = [
   )
 ];
 
+
+
+
 List<SingleChildWidget> viewModel = [
   ChangeNotifierProvider<HeadLineViewModel>(
       create: (context) => HeadLineViewModel(
